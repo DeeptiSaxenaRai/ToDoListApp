@@ -8,6 +8,7 @@ titleText.textContent = "Welcome To The JavaScript To Do List";
 // create form elements:
 const formElement = document.createElement("form");
 const addTodoText = document.createElement("input");
+addTodoText.minLength = "2 "; //set min length of input text
 const addTodoButton = document.createElement("button");
 addTodoButton.textContent = "Add Todo Items";
 // Add the class for button for stayling
